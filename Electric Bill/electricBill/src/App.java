@@ -24,7 +24,7 @@ public class App {
         System.out.println("Your Peso/KilloWatt per Hour: " + quotient);
 
         double result = Math.abs(difference * quotient);
-        // double result - quotient - difference
+
         System.out.println("Your Total Bill Is: " + result);
     }
 }
